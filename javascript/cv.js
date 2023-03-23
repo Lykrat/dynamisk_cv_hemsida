@@ -8,7 +8,7 @@ fetch("../javascript/cvlist.json")
                 writeIt.insertAdjacentHTML("beforeend",`<div class="space"><h2>${post.name}</h2><p>${post.time}</p></div>`);
             }
             else{
-                writeIt.insertAdjacentHTML("beforeend",`<div class="space"><h2>${post.name}, ${post.Employer}</h2><p>${post.time}</p>o</div>`);
+                writeIt.insertAdjacentHTML("beforeend",`<div class="space"><h2>${post.name}, ${post.Employer}</h2><p>${post.time}</p></div>`);
             }
         });
     })
