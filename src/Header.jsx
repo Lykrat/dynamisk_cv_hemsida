@@ -88,7 +88,7 @@ function Header() {
       <nav className="MainHeader">
           <a href="./index.html">Home</a>
           <a href="./HTML/Cv.html">Cv</a>
-          <a className="active" href="Portfolio.html">Portfolio</a>
+          <a className="active" href="./ReactPart.html">Portfolio</a>
           <a href="./HTML/About.html">About me</a>
           <a href="./HTML/Contact.html">Contact</a>
       </nav>
