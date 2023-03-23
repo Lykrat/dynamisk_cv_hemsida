@@ -21,13 +21,9 @@ function App() {
   }
 
   const [repositorys, setRepositorys]=useState([]);
-  const dataFetchedRef = useRef(false);
 
   useEffect(()=> {
-    if(dataFetchedRef.current){
-      getApi()
-    }
-    dataFetchedRef.current=true;
+    getApi()
   },[]);
   return (
     <main className='cvtext'>
