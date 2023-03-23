@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Lindbergs skola",
+        "Employer": null,
+        "time": "Augusti 2008 - juni 2018"
+    },
+    {
+        "name": "Peder Skrivares skola",
+        "Employer": null,
+        "time": "Augusti 2018 - juni 2021"
+    },
+    {
+        "name": "Varberg Campus",
+        "Employer": null,
+        "time": "September 2022 - Idag"
+    },
+    {
+        "name": "Medarbetare",
+        "Employer": "Mcdonalds",
+        "time": "December 2021 - Augusti 2022"
+    },
+    {
+        "name": "Storstäd",
+        "Employer": "Sjukhus - Varberg",
+        "time": "Juni - Juli 2021"
+    },
+    {
+        "name": "Parkarbetare",
+        "Employer": "Varbergs Kommun",
+        "time": "Juni 2020"
+    },
+    {
+        "name": "Assisterande Simlärare",
+        "Employer": "Varbergs Kommun",
+        "time": "Juli 2019"
+    }
+]

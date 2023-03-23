@@ -1,0 +1,1 @@
+const cv=document.querySelector("ul");fetch("/dynamisk_cv_hemsida/assets/cvjson-4ed993c7.json").then(n=>n.json()).then(n=>{n.forEach(e=>{e.Employer==null?cv.insertAdjacentHTML("beforeend",`<div class="space"><h2>${e.name}</h2><p>${e.time}</p></div>`):cv.insertAdjacentHTML("beforeend",`<div class="space"><h2>${e.name}, ${e.Employer}</h2><p>${e.time}</p></div>`)})});
