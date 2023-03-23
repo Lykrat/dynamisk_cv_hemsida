@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.MainHeader{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    overflow: hidden;
+}
+.MainHeader a{
+    color: rgb(255, 255, 255,0.8);
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.MainHeader a:hover:not(.active){
+    background-color: rgb(220, 20, 60,0.65);
+}
+.MainHeader a.active{
+    background-color: rgb(220, 20, 60,0.7);
+}
+body{
+    background-color: rgb(41, 41, 46);
+}
+.cvtext{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text{
+    margin: 70px;
+}
+@media screen and (max-width: 600px){
+    .text {
+        margin: 20px;
+    }
+}
+.text h1{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255,0.7)
+}
+@media screen and (max-width: 1260px){
+    .text h1{
+        text-align: center;
+    }
+}
+.inner {
+    font-size: 16px;
+    padding: 30px;
+    color: rgb(255, 255, 255,0.6);
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+.inner h2{
+    color: rgb(255, 255, 255,0.65);
+    font-weight:500;
+}
+.inner a{
+    color:rgb(220, 20, 60,0.9);
+}
+.inner a:link{
+    text-decoration: none;
+}
+.inner a:hover{
+    text-decoration: underline;
+}
+.inner img{
+    display: block;
+    padding: 0%;
+    width:500px;
+    height:auto;
+}
+@media screen and (max-width: 560px) {
+    .inner img{
+        width: 85vw;
+    }
+}
+.innerReact{
+    text-align: center;
+    padding:30px;
+    font-size: 16px;
+    color: rgb(255, 255, 255,0.6);
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+.innerReact a{
+    color:rgb(220, 20, 60,0.9);
+}
+.innerReact a:link{
+    text-decoration: none;
+}
+.innerReact a:hover{
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+  }
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.popup{
+    display: block;
+    padding:30px;
+    background-color: rgb(31, 31, 35);
+    color: rgb(255, 255, 255,0.6);
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer{
+    display: flex;
+    position: fixed;
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    background-color: rgb(31, 31, 35);
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    color: rgb(255, 255, 255,0.65);
+    text-align: center;
+}
+span{
+    color: rgb(255, 255, 255,0.65);
+    cursor: pointer;
+}
+.space{
+    margin-bottom: 4vh;
+}
